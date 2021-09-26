@@ -5,10 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
+		//PlayerController player = new PlayerController();
     // Start is called before the first frame update
     void Start()
-    {
-        SceneManager.LoadScene("Level1", LoadSceneMode.Single);
+		{
+				//gameObject.tag = "GameController";
+
+        SceneManager.LoadScene("Test", LoadSceneMode.Single);
     }
 
     // Update is called once per frame

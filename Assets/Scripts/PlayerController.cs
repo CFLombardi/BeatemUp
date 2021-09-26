@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+		public int health;
     // Start is called before the first frame update
     void Start()
     {
+				health = 10;
         print("Hello!");
     }
 
@@ -15,4 +17,10 @@ public class PlayerController : MonoBehaviour
     {
 
     }
+
+		public int getHealth()
+		{
+			return health;
+		}
+
 }
